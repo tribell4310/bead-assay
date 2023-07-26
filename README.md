@@ -4,16 +4,13 @@ A quantitative, hypersensitive, and lipid-compatible IP assay.
 
 ![Capture_1_-_Position_1__81__DAPI_26_B_binarymask](https://github.com/tribell4310/bead-assay/assets/67428134/7103ba8a-5de7-49fe-b770-34d6ff0e1a79)
 
-> *"If it's stupid but it works, it isn't stupid."* 
-> -- Murphy's Laws of Combat Operations
-
 # Approach
 
 The bead assay is a twist on a traditional immunourification (IP) assay.  In a traditional IP, one protein (the "bait") is bound to a resin and the amount of a second protein (the "prey") is measured, usually by SDS-PAGE or immunoblotting.  Though robust, this method is not particularly quantitative, and is limited to looking at protein preys.
 
 We extend the IP assay format by processing bound prey signal using fluorescence microscopy and computational analysis.  This allows us to measure the binding of any type of prey (proteins, ligands, glycans, lipids, etc.) so long as it is fluorescently tagged.  We can also exploit the fact that individual agarose or sepharose resin beads are spherical to eliminate air bubbles, cellular debris, or other artifacts that could interfere with sensitive measurements.
 
-[]
+![image](https://github.com/tribell4310/bead-assay/assets/67428134/2bd66b5f-925a-4e2a-ab61-5114d9580863)
 
 This approach will soon be published in our new preprint article on biorxiv!  In the meantime, please inquire directly for detailed protocols: bell@molbio.mgh.harvard.edu.
 
@@ -131,19 +128,22 @@ This will produce a directory called `copy_out` containing all of the relevant o
 
 To achieve the most sensitive possible measurements, it is necessary to manually review the images of resin beads and eliminate any that were incorrectly identified.  Images of beads are stored within the `copy_out/full_bead_segment_pngs` directory.  Real resin beads should look perfectly circular:
 
-[]
+![image](https://github.com/tribell4310/bead-assay/assets/67428134/2aebc8c6-8365-413a-83d3-43055a3c0d74)
 
-[]
 
-[]
+![image](https://github.com/tribell4310/bead-assay/assets/67428134/938439e0-f879-4757-a4d2-d4a4e8785424)
+
+
+![image](https://github.com/tribell4310/bead-assay/assets/67428134/bc286df9-b7e2-4f54-b647-5034b4f67f91)
+
 
 Artifacts are easy to spot by eye.
 
-[]
+![image](https://github.com/tribell4310/bead-assay/assets/67428134/a2875f1f-1ddb-4b72-b3d9-2cf3aa69d08e)
 
-[]
 
-[]
+![image](https://github.com/tribell4310/bead-assay/assets/67428134/098d7578-807f-468f-8c39-fde35d527f86)
+
 
 Take note of the particle IDs for any objects that should be excluded from analysis.
 
