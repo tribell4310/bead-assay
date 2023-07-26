@@ -39,11 +39,21 @@ Some microscope software produces default filenames with unix-disallowed charact
 ## Data processing
 
 The data processing scripts require python 3.5 or higher, preferably installed in a dedicated virtual environment.  The scripts should be placed into a dedicated working directory. Package dependencies are:
- - Blah blah blah
- - Blah blah blah blah
- - Blah blah
- - Blah
+ - cython
+ - csv
+ - math
+ - imageio
+ - numpy
+ - matplotlib
+ - cv2
+ - skimage
+ - scipy
+ - datetime
+ - statistics
+
+In addition, your system will need:
  - C compiler (gcc on Linux systems or equivalent for MacOS).
+ - imagemagick
 
 ### Pre-compile custom functions
 
