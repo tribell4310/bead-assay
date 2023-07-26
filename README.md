@@ -2,10 +2,10 @@
 
 A quantitative, hypersensitive, and lipid-compatible IP assay.
 
+![Capture_1_-_Position_1__81__DAPI_26_B_binarymask](https://github.com/tribell4310/bead-assay/assets/67428134/7103ba8a-5de7-49fe-b770-34d6ff0e1a79)
+
 > *"If it's stupid but it works, it isn't stupid."* 
 > -- Murphy's Laws of Combat Operations
-
-[]
 
 # Approach
 
