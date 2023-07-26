@@ -76,17 +76,17 @@ The analysis scripts require two parameter files, alled `multichannel.csv` and `
 > DAPI,FITC
 
 The `replicates.csv` file defines constant portions of the names of the image files to look at.  For example, if some tiff image files look like this:
-> Capture_1_DAPI_1\
-> Capture_1_FITC_1\
-> Capture_1_DAPI_2\
-> Capture_1_FITC_2\
-> Capture_2_DAPI_1\
-> Capture_2_FITC_1\
-> Capture_2_DAPI_2\
+> Capture_1_DAPI_1<br>
+> Capture_1_FITC_1<br>
+> Capture_1_DAPI_2<br>
+> Capture_1_FITC_2<br>
+> Capture_2_DAPI_1<br>
+> Capture_2_FITC_1<br>
+> Capture_2_DAPI_2<br>
 > Capture_2_FITC_2
 
 ...then the replicates file should look like:
-> Capture_1\
+> Capture_1<br>
 > Capture_2
 
 ### Analyze and segment images of beads
