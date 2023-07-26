@@ -155,6 +155,8 @@ Finally, calculate summary statistics (averages, standard deviation, and replica
 
 `python bead_calc summary_stats.py collate_analysis_analyzed_manCurate.csv replicates.csv`
 
+This produces a final output called `collate_analysis_analyzed_manCurate_summary.csv` containing your final collated data.
+
 If you'd like to use a different measurement, all of the per-bead data (with and without background correction) is retained in the `collate_analysis_analyzed_manCurate.csv` spreadsheet file.
 
 
