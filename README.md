@@ -31,7 +31,7 @@ Once your protein is bound to the resin is bound and washed (just prior to where
 
 `experimentName_montagePositionNumber_channelName.tiff`
 
-Some microscope software produces default filenames with unix-disallowed characters, or a `.tif` instead of a `.tiff`	file extension.  For convenience, the `bead_underscore.py` script is included that modified the 
+Some microscope software produces default filenames with unix-disallowed characters, or a `.tif` instead of a `.tiff`	file extension.  For convenience, the `bead_underscore.py` script is included that corrects these issues.
 
 ## Data processing
 
