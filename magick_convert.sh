@@ -7,6 +7,7 @@ for filename in *; do
     prefix=$(echo $filename | cut -d'.' -f 1)
     suffix="_%d.tiff"
     magick convert $filename "$prefix$suffix"
+    rm $filename
   fi
 done
 
