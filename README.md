@@ -66,7 +66,7 @@ In our microscope setup, out exported tiff files are multi-page, meaning that ea
 
 `bash magick_convert.sh`
 
-This script will generate a single-page tiff for every frame in your multi-page tiffs.  Before proceeding, remove the multi-page tiffs from your working directory.
+This script will generate a single-page tiff for every frame in your multi-page tiffs.
 
 ### Configure parameter files
 The analysis scripts require two parameter files, alled `multichannel.csv` and `replicates.csv`.  The `multichannel.csv` file needs to contain the channels you want to measure fluorescence on, with the first channel being the one used for bead detection.  Because we image our BFP bead marker on the DAPI channel and image bound BODIPY-cholesterol on the FITC channel.  Thus, our multichannel file would look like:
