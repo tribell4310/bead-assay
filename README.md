@@ -117,7 +117,7 @@ Next, convert the analysis spreadsheet into a human-readable form using the comm
 
 |Parameter|Type|Description|Example from data above|
 |--|--|--|--|
-| [channels] | stings, separated by spaces | Channels that quantification was performed on.  These are identical to the channels in you `multichannel.csv` file. | `DAPI FITC` |
+| [channels] | strings, separated by spaces | Channels that quantification was performed on.  These are identical to the channels in you `multichannel.csv` file. | `DAPI FITC` |
 
 Finally, run the following command to package the script outputs into a usable format.
 `bash bead_cleanup.sh`
