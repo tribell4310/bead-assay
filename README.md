@@ -12,7 +12,7 @@ We extend the IP assay format by processing bound prey signal using fluorescence
 
 ![image](https://github.com/tribell4310/bead-assay/assets/67428134/2bd66b5f-925a-4e2a-ab61-5114d9580863)
 
-This approach is now available in our new preprint article on biorxiv!  [https://www.biorxiv.org/content/10.1101/2023.11.08.566258v2.abstract]
+This approach is now available in our new preprint article on [biorxiv](https://www.biorxiv.org/content/10.1101/2023.11.08.566258v2.abstract).
 
 ## The IP
 
