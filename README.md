@@ -4,6 +4,10 @@ A quantitative, hypersensitive, and lipid-compatible IP assay.
 
 ![Capture_1_-_Position_1__81__DAPI_26_B_binarymask](https://github.com/tribell4310/bead-assay/assets/67428134/7103ba8a-5de7-49fe-b770-34d6ff0e1a79)
 
+# What's New
+
+ - 1 Feb 2024: Added an optional [docker](https://www.docker.com/) enviornment with all functions precompiled.  Build the docker image on your system with `docker build -t beads .`, then run with `docker run -it --rm beads`.
+
 # Approach
 
 The bead assay is a twist on a traditional immunourification (IP) assay.  In a traditional IP, one protein (the "bait") is bound to a resin and the amount of a second protein (the "prey") is measured, usually by SDS-PAGE or immunoblotting.  Though robust, this method is not particularly quantitative, and is limited to looking at protein preys.
