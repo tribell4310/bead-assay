@@ -6,7 +6,7 @@ A quantitative, hypersensitive, and lipid-compatible IP assay.
 
 # What's New
 
- - 1 Feb 2024: Added an optional [docker](https://www.docker.com/) enviornment with all dependencies installed and all functions precompiled.  Build the docker image on your system with `docker build -t beads .`, then run with `docker run -it --rm beads`
+ - 1 Feb 2024: Added an optional [docker](https://www.docker.com/) enviornment with all dependencies installed and all functions precompiled.  Build the docker image on your system with `docker build -t beads .` then run with `docker run -it --rm beads`
 
 # Approach
 
